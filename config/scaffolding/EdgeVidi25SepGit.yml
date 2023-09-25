@@ -10,6 +10,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.544
+- serviceName: edge.vidi25sepgit.integrations:Test3
+  packages:
+  - name: EdgeVidi25SepGit
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.544
 packages:
 - name: EdgeVidi25SepGit
   gitServerName: vidi25Sep
