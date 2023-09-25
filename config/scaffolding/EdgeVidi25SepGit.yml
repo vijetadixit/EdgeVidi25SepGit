@@ -18,6 +18,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.544
+- serviceName: edge.vidi25sepgit.integrations:Test4
+  packages:
+  - name: EdgeVidi25SepGit
+    version: "1.0"
 packages:
 - name: EdgeVidi25SepGit
   gitServerName: vidi25Sep

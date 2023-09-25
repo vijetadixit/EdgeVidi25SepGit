@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">stagetest</value>
-    <value name="createdDate">1695641403023</value>
-    <value name="lastModifiedDate">1695641403023</value>
+    <value name="lastModifiedBy">stagetest</value>
+    <value name="lastModifiedDate">1695641424052</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">faab3fc2c28a423e95856c36bc50dc05</value>
       <null name="group"/>
@@ -73,6 +72,13 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">Test3</value>
+        <value name="displayName">Test3</value>
+        <value name="itemType">INTEGRATIONS</value>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>
