@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.vidi25sepgit.integrations:Test1
+  packages:
+  - name: EdgeVidi25SepGit
+    version: "1.0"
+- serviceName: pub.string:toUpper
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.544
 packages:
 - name: EdgeVidi25SepGit
   gitServerName: vidi25Sep
