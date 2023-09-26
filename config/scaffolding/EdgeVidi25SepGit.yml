@@ -17,8 +17,12 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.544
+    version: 11.0.0.0.560
 - serviceName: edge.vidi25sepgit.integrations:Test4
+  packages:
+  - name: EdgeVidi25SepGit
+    version: "1.0"
+- serviceName: edge.vidi25sepgit.integrations:test
   packages:
   - name: EdgeVidi25SepGit
     version: "1.0"
