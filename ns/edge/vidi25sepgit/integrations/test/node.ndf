@@ -46,11 +46,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">stagetest</value>
-    <value name="lastModifiedDate">1695729158335</value>
+    <value name="lastModifiedDate">1695737979385</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">b3503ecd7d964d24841a005bf7b18b6e</value>
+      <value name="id">default</value>
       <value name="group">default</value>
-      <value name="name">vidi26Sep</value>
+      <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">test</value>
     <value name="description"></value>
